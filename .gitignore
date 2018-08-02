@@ -10,7 +10,7 @@
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
-/spec
+/spec/
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -22,3 +22,5 @@
 /yarn-error.log
 
 .byebug_history
+/bundler_stubs
+Guardfile
